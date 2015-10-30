@@ -1,0 +1,130 @@
+.mail{
+width:100%;	
+	
+}
+.inbox-po{
+width: 100%;
+border-collapse: collapse;
+}
+.inbox-po-tr{
+background: #44749d;
+color: white;
+font-size: 20px;
+}
+.inbox-po-tr th{
+border: 1px solid white;
+font-family: arial;
+}
+.inbox-content td{
+color: black;
+font-size:15px;
+font-family: Arial;
+word-wrap:break-word;
+}
+.inbox-content:hover{
+border: 1px solid #44749d;
+color: black;
+}
+.right {
+text-align: right;		
+}
+.po-info{
+width: 100%;
+border-collapse: collapse;
+border: 1px solid #C1C1C1;
+}
+.labels{
+border-top:1px solid black;		
+}
+.labels td{
+font-size:14px;
+font-family:arial;	
+font-weight:bold;
+border-top: 1px solid #000;
+border-left: 1px solid #C1C1C1;
+border-right: 1px solid #C1C1C1;
+}
+.outputs td{
+font-size:14px;
+font-family:arial;	
+border-left: 1px solid #C1C1C1;
+border-right: 1px solid #C1C1C1;
+}
+td{
+word-break:break-word;		
+}
+.tbl-po-content{
+width:100%;
+border-collapse:collapse;		
+}
+.tbl-po-content th{
+background: #000;
+font-size:18px;
+font-family: arial;
+color: white;
+font-weight:bold;
+}
+.tbl-po-th2 td{
+background:#EBE9E9;
+font-size:14px;	
+font-family:arial;
+border: 1px solid #fff;
+font-weight:bold;
+text-align:center;
+}
+.tbl-po-content2 td{
+font-size:14px;	
+font-family:arial;
+border: 1px solid #EBE9E9;
+text-align:center;	
+}
+.tbl-po-content-total td{
+font-size:14px;	
+font-family:arial;
+border: 1px solid #EBE9E9;
+font-weight:bold;
+}
+.tbl-po-note-th td{
+background:#EBE9E9;
+}
+.tbl-po-note-th td{
+font-size: 16px;
+font-weight:bold;	
+font-family:arial;
+}
+.tbl-po-note{
+border: 1px solid #EBE9E9;
+}
+.tbl-po-note td{
+font-size: 14px;
+font-family:arial;
+border: 1px solid #EBE9E9;
+}
+.tbl-po-status{
+width:100%;	
+font-family:arial;	
+border-collapse:collapse;
+border: 1px solid #EBE9E9;
+}
+.status-label{
+text-align:center;
+font-weight:bold;	
+border: 1px solid #EBE9E9;
+}
+.tbl-po-status td{
+font-size:14px;
+border: 1px solid #EBE9E9;
+}
+.words{
+text-align:center;	
+}
+.act{
+	width:100%;
+border-collapse:collapse;
+border: 1px solid #EBE9E9;
+}
+
+
+
+
+

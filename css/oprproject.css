@@ -1,0 +1,45 @@
+body{
+font-family:arial;}
+input:not([type="image"]), textarea {
+ text-shadow: none;
+  outline:none;
+  background:none;
+   -webkit-box-shadow:none;
+   box-sizing: none;
+}
+.side{
+width:20%;
+//background:#49FFA7;
+float:left; 
+}
+.divside{
+border-radius:6px;
+background:#f7faff;
+}	
+.divside label{
+font-size:14px;
+border-radius:3px;
+padding:3px;
+width:100%;
+color:#333333;
+background:#dde7f7;
+border-bottom:1px solid #c2d0e8;
+font-weight:bold;
+}
+.btn
+{
+width:100%;
+text-align:left;
+font-size:14px; 
+
+color:#A9A9A9;
+border-radius:2px;
+background:none;
+box-sizing:none;
+padding:5px;
+}
+.btn:hover
+{
+background:#E9E9E9;
+color:#A9A9A9;
+}

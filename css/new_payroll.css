@@ -1,0 +1,100 @@
+body{
+font-family: arial;
+}
+.header{
+width:100%;
+//background: red;
+padding: 2px;
+text-align:center;
+}
+.header label{
+font-size:10px;
+}
+.pay1{
+width: 100%;
+background: #E8E8E8;
+border-collapse:collapse;
+border:1px solid blue;
+}
+.pay1 td{
+border:1px solid blue;
+}
+.payroll-info{
+height: 20px;
+}
+.payroll-info td{
+border-right:1px solid blue;
+padding:0;
+height: 30px;
+}
+.payroll-info input{
+text-align:center;
+width:100%;
+border:none;
+text-transform: uppercase;
+height:28px;
+}
+.payroll-label td{
+text-align:center;
+font-size:12px;
+}
+.pay2{
+width: 100%;
+border-collapse:collapse;
+border:1px solid blue;
+}
+.pay2 th{
+background: #000;
+color:#fff;
+}
+.payroll-content{
+font-size:12px;
+}
+.payroll-content td{
+border:1px solid grey;
+text-align:center;
+padding:0;
+}
+.payroll-content td input{
+width:100%;
+}
+.clickable{
+width:100%;
+background: #f7faff;
+border-bottom: 1px solid #dde7f7;
+padding:2px;
+}
+.clickable:hover{
+ background: #e2eaf8;
+}
+.clickable label {
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+}
+
+.clickable .appear { 
+    display: none;
+    font-family: Arial, sans-serif;
+background: #f7faff;
+    color: #000;
+    padding: 10px;
+}
+
+.clickable input {
+    display: none;
+}
+.clickable input:checked ~ .appear {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+

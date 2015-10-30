@@ -1,0 +1,21 @@
+body{
+font-family:arial;
+
+}
+.pcf-tbl1{
+border-collapse:collapse;
+width:100%;
+}
+.pcf-tr1 td{
+background:#000;
+color:#fff;
+padding:2px;
+border:1px solid #fff;
+}
+.pcf-tr2 td{
+background:#dde7f7;
+color:#000;
+padding:2px;
+border:1px solid #fff;
+font-size:12px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN">
+<html>
+
+	<head>
+		<title></title>
+
+		<style>
+			/*just get rid of some padding*/
+			body, p, div{
+				padding:0;
+				margin:0;
+				width:100%;
+			}
+
+
+			#header{
+				background:#bddce8;
+				height:100px;
+				font-weight:bold;
+			}
+
+			#body{
+				background:#bddce8;
+				height:1000px;
+				font-weight:bold;
+			}
+				.bodyHasLock{
+					padding-top:50px;	/*matches height of #lock */
+				}
+
+			#lock{
+				background:#ffffcc;
+				height:50px;
+			}
+
+				.doLock{
+					position:fixed;
+					top:0;
+				}
+
+		</style>
+
+
+		<script>
+			function checkScroll(event){
+				//just writing some information
+				document.getElementById("scrollAmount").innerHTML = document.body.scrollTop;
+
+				//if we've scrolled through the height of our #header bar (which is 100px tall)
+				//		then fix the #lock DIV in place by adding a class
+				//		Else, remove the class
+				//  while there, add/remove a class to the body just to improve the visual
+
+				var lockBar = document.getElementById("lock");
+				var bodyText = document.getElementById("body");
+
+				if(document.body.scrollTop>=100){
+					lockBar.className = "doLock";
+					bodyText.className = "bodyHasLock";
+				}else{
+					lockBar.className = "";
+					bodyText.className = "";
+				}
+
+			}
+		</script>
+
+	</head>
+	<body onScroll="checkScroll()">
+		<p id="header">some header stuff</p>
+		<div id="lock"><p>lock this to header</p></div>
+		<p id="body">
+			body text here.  I've scrolled: <span id="scrollAmount">0</span>px
+			<br /><br />more...<br /><br />more...<br /><br />more...<br /><br />more...<br /><br />more...
+		</p>
+	</body>
+</html>
